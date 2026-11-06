@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5e8eb;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+}
+
+.panfleto {
+    background-color: #f1d5dc;
+    width: 700px;
+    margin: auto;
+    border: 3px solid #d9a6b3;
+    text-align: center;
+
+}
+
+header {
+    background-color: #f1d5dc;
+    padding: 35px;
+    display: flex;
+        img {
+        height: 150px;
+        justify-self: left;
+        margin-right: 80px;
+
+        }
+}
+.cabecario{
+    font-family: 'Playfair Display', serif;
+    color: #9b586c;
+    padding-top: 30px;
+        h1{
+            font-size: 50px;
+            display: flex;
+            justify-content: left;
+        }
+            p{
+                font-size: 20px;
+            }
+}
+.texto1 {
+    background-color: #f5e8eb;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #9b586c;
+    margin: 10px;
+    padding: 20px;
+    border:  1px solid white ;
+}
+
+.texto2{
+    background-color: #f5e8eb;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #9b586c;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.texto3{
+    background-color: #f5e8eb;
+    font-family:  "Playwrite IT Trad", cursive;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    color: #9b586c;
+}
+
+footer {
+    background-color: #e8c2cc;
+    padding: 20px;
+    color: #804456;
+    font-size: 13px;
+}
+
+
